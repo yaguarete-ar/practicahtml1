@@ -1,0 +1,97 @@
+<!DOCTYPE html> 
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fundamentos de HTML</title>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html" title="Inicio">Inicio</a> 
+            <a href="nosotros.html" title="Nosotros">Nosotros</a>
+            <a href="https://www.facebook.com/" title="facebook" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/" title="instagram" target="_blank">Instagram</a>
+        </nav>
+        <header>
+            <h1>ServiceCloud</h1>
+
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam neque nobis laudantium, error laborum sit provident sunt atque sed perferendis vitae deserunt tempore voluptate, velit ratione fugiat expedita! Neque, ex.</p>
+
+        </header>
+
+        <main>
+            <h1>Bienvenidos a nuestro lugar en el mundo!</h1>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum ex, tempora corporis quod sunt quidem nesciunt dolore nulla unde, provident voluptatem ut perferendis rem nobis quaerat necessitatibus eligendi, sapiente delectus.
+        </p>
+
+        <img src="imagenes/imagen-01.jpeg" alt="imagen-01">
+        <img src="imagenes/imagen-02.jpeg" alt="imagen-02">
+        <img src="imagenes/imagen-03.jpeg" alt="imagen-03">
+
+        <h2>¿Qué servicios brindamos?</h2>
+        <ul>
+            <li>Servicio de guardado digital</li>
+            <li>Servicio de Versionado</li>
+            <li>Servicio de detección de errores del proceso</li>
+        </ul>
+
+        <h2>Planes pensados para su empresa</h2>
+        <table>
+            <tr>
+                <th style="background-color: #ff882b;">STANDARD</th>
+                <th style="background-color: #db7893;">PREMIUM</th>
+                <th style="background-color: #add8e6;">CORS</th>
+            </tr>
+            <tr>
+                <th colspan="3">PLANES</th>
+            </tr>
+            <tr>
+                <td> <ul> <li>#Servicio</li> <li>#Servicio</li> <li>#Servicio</li> <li>#Servicio</li> </ul> </td>
+                <td> <ul> <li>#Servicio</li> <li>#Servicio</li> <li>#Servicio</li> <li>#Servicio</li> </ul> </td>
+                <td> <ul> <li>#Servicio</li> <li>#Servicio</li> <li>#Servicio</li> <li>#Servicio</li> </ul> </td>
+            </tr>
+        </table>
+
+        <h2>Contactános</h2>
+        <form action="codigo.php" method="POST">
+            <label>* Nombre y Apellido: <br> <input type="text" name="nombre" placeholder="John Doe" required></label><br>
+            <label>* Email: <br> <input type="email" name="email" placeholder="info@dominio.com" required></label><br>
+            <label>* Edad: <br> <input type="number" name="edad" min="18" max="100" required></label><br>
+            <label>* Comentarios: <br> <textarea name="comentarios" required></textarea></label><br>
+            <label>* Servicio <br> <select name="servicio" required>
+                <option value="" selected disabled>Elegir</option>
+                <option value="digital">Guardado digital</option>
+                <option value="versionado">Versionado</option>
+                <option value="errores">Errores de proceso</option>
+            </select></label><br>
+            <span> * campos obligatorios </span><br>
+            
+            <!--
+            <label for="nombre">Nombre y Apellido: </label><br>
+            <input type="text" name="nombre" id="nombre" placeholder="John Doe">
+            <br>
+            <label for="email">Email: </label><br>
+            <input type="email" name="email" id="email" placeholder="info@dominio.com">
+            <br>-->
+            <button>Enviar</button>
+        </form>
+
+        </main>
+        
+
+        <footer>
+            <nav>
+                <a href="index.html" title="Inicio">Inicio</a> 
+                <a href="nosotros.html" title="Nosotros">Nosotros</a>
+                <a href="https://www.facebook.com/" title="facebook" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/" title="instagram" target="_blank">Instagram</a>
+            </nav>
+        </footer>
+
+        
+
+
+        </body>
+</html>

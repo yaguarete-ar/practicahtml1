@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+a { color: #fff; text-decoration: none; font-size: 14px; margin-left: 5px; }
+a:hover {text-decoration: underline; font-weight: bold;}
+body {background-color: #f4f5f9; color: #222222;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
+h1 {color: #333; font-size: 40px;}
+h2 {font-size: 30px;}
+header {width: 100%; height: 100px; padding: 10px; margin-bottom: 20px;}
+main {width: 900px; padding: 5px; margin: auto;}
+footer {width: 100%; background-color: #333; height: 100px;}
+nav {width: 100%; height: 30px; background-color: rgba(0, 0, 0, 0.5); line-height: 30px;}
+footer nav {text-align: center; background-color: transparent;}
+img {width: 30%; height: auto;}
+
+form {width: 80%;}
+input, textarea, select {margin-bottom: 5px; width: 200px; height: 30px;}
+button {width: 200px; height: 30px; background-color: #fff; border: 1px solid #333; margin-left: 500px;}
+span {color: red;}
+
+table {width: 100%; empty-cells: hide; border-collapse: collapse; color: #666; margin: auto;}
+th, td {width: 30%; padding: 2%;}
+th {background-color: #2285FF; color: white; font-size: 30px;}
+td {background-color: #ccc;}
+
+/*header h1, header p {width: 600px; background-color: #db7393; height: 100px; width: 600px; height: 100px;}
+header p {background: #ccc;}
+*/
+
